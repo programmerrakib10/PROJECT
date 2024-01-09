@@ -2,9 +2,8 @@
     margin: 0px auto;
     padding: 0px auto;
 }
-a {
-    list-style: none;
-}
+
+
 main {  width: 1320px;
 height: 600px;
 background-image: url(images/Rectangle\ 14.png);
@@ -173,4 +172,68 @@ margin-bottom:48px ;
  }
  .date {
    
+ }
+
+ /* Footer work start  */
+
+ .footer {
+    width: 1600px;
+    height: 609px;
+    background-color: #070211;
+    border-radius: 8px;
+ }
+ .footer-content {
+    display: flex;
+    justify-content: space-between;
+ }
+ .number {
+    display: flex;
+ }
+ .internet {
+    display: flex;
+ }
+ .paragraph {
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+width: 375px;
+height: 80px;
+padding-top: 120px;
+padding-left: 140px;
+ }
+ h5 {
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+width: 195px;
+height: 40px;
+padding-left: 20px;
+ }
+ .contact {
+    padding-top: 120px;
+    padding-right: 270px;
+ }
+ .social-media {
+    padding-left:640px ;
+    padding-top:150px ;
+ }
+ .fb {
+    padding-right: 24px;
+ }
+ .ins  {
+    padding-right: 24px;
+ }
+ .tww {
+    padding-right: 24px;
+ }
+ .copyright {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 120px;
+ }
+ .last-tag {
+    width: 295px;
+    height: 29px;
  }
